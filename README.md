@@ -44,6 +44,11 @@ Your application will be available at `http://localhost:3000`
 ## Project Structure
 ```
 alx-project-0x00/
+├── components/
+│   ├── Card.tsx
+│   └── Pill.tsx
+├── interfaces/
+│   └── index.ts
 ├── pages/
 ├── public/
 ├── styles/
