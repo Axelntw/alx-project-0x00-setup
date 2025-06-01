@@ -46,9 +46,30 @@ Your application will be available at `http://localhost:3000`
 - Landing: http://localhost:3000/landing
 - About: http://localhost:3000/about
 
+## Components
+The project includes reusable components:
+
+### Card Component
+A complex UI component that displays property information with:
+- Property image
+- Multiple Pills
+- Property details
+- Amenity icons
+
+### Pill Component
+A simple reusable component for displaying tags/labels with:
+- Rounded styling
+- Configurable title
+- Consistent styling across the application
+
 ## Project Structure
 ```
 alx-project-0x00/
+├── public/
+│   └── assets/
+│       └── images/
+│           ├── house.png
+│           └── star.png
 ├── components/
 │   ├── Card.tsx
 │   └── Pill.tsx
