@@ -1,1 +1,3 @@
-// Empty file for future interface definitions
+export interface PillProps {
+  title: string
+}

@@ -85,6 +85,24 @@ const Landing: React.FC = () => {
 }
 ```
 
+## Component Props
+### Pill Component
+The Pill component accepts the following props:
+- `title: string` - Text to display inside the pill
+
+Example usage:
+```tsx
+<Pill title="Top Villa" />
+```
+
+### Interface Types
+Located in `/interfaces/index.ts`:
+```tsx
+interface PillProps {
+  title: string
+}
+```
+
 ## Project Structure
 ```
 alx-project-0x00/
