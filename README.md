@@ -62,6 +62,29 @@ A simple reusable component for displaying tags/labels with:
 - Configurable title
 - Consistent styling across the application
 
+## Component Usage
+Components can be reused across different pages:
+
+### Landing Page
+The landing page demonstrates component reuse by:
+- Importing the Card component
+- Displaying multiple instances of the Card component
+- Using a flex container for responsive layout
+
+Example usage:
+```tsx
+import Card from "@/components/Card"
+
+const Landing: React.FC = () => {
+  return (
+    <div>
+      <h1>Landing Page</h1>
+      <Card />
+    </div>
+  )
+}
+```
+
 ## Project Structure
 ```
 alx-project-0x00/
