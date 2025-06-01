@@ -41,6 +41,11 @@
 
 Your application will be available at `http://localhost:3000`
 
+## Available Routes
+- Home: http://localhost:3000
+- Landing: http://localhost:3000/landing
+- About: http://localhost:3000/about
+
 ## Project Structure
 ```
 alx-project-0x00/
@@ -50,6 +55,9 @@ alx-project-0x00/
 ├── interfaces/
 │   └── index.ts
 ├── pages/
+│   ├── index.tsx
+│   ├── landing.tsx
+│   └── about.tsx
 ├── public/
 ├── styles/
 ├── package.json

@@ -1,1 +1,1 @@
-// Empty file for interfaces
+// Empty file for future interface definitions
